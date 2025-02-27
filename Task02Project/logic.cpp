@@ -8,9 +8,9 @@ int sum_even_elements(int* vector, int size)
 
 	for (int i = 0; i < size; i+=2)
 	{
-		if (*(vector + 1) % 2 == 0)
+		if (*(vector + i) % 2 == 0)
 		{
-			sum += *(vector + 1);
+			sum += *(vector + i);
 		}
 	}
 
